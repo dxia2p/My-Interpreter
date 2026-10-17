@@ -35,7 +35,7 @@
         static int Main(string[] args)
         {
             if (args.Length > 1) {
-                Console.WriteLine("Usage: program [script]");
+                Console.WriteLine("Only one <script> argument is allowed!");
                 hadError = true;
             } else if (args.Length == 1) {
                 runFile(args[0]);
